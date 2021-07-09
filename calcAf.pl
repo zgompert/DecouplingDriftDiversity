@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-#
+# allele freqs from SLiM vcf output
 
 foreach $file (@ARGV){
 	open(IN, $file) or die "failed to read the infile: $file\n";
