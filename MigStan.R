@@ -1,4 +1,4 @@
-## equilibrium island model fit in Stan for the 77777777 core JH  populations
+## equilibrium island model fit in Stan for the 7 core JH  populations
 library(rstan)
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
